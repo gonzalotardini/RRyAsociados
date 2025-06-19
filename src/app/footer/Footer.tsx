@@ -1,6 +1,5 @@
 "use client";
 import { FaWhatsapp, FaEnvelope, FaInstagram, FaLinkedin } from "react-icons/fa";
-import Image from "next/image";
 
 const Footer = () => {
     return (
