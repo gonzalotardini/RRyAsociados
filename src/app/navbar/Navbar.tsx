@@ -11,12 +11,12 @@ export default function Navbar() {
 
   return (
     <header className="bg-[#0c1d37] fixed top-0 left-0 w-full z-50 text-white">
-      <div className="container mx-auto px-4 h-15 md:h-24 flex items-center md:justify-center justify-end">
+      <div className="container mx-auto px-4 h-20 md:h-24 flex items-center md:justify-center justify-end">
         {/* <h1 className="text-2xl font-bold">RR & Asociados</h1> */}
 
         {/* Botón hamburguesa (solo en mobile) */}
         <button
-          className="md:hidden text-2xl text-right px-2 py-2 border border-gray-400 rounded"
+          className="md:hidden text-2xl text-gray-400 text-right px-4 py-2 border border-gray-400 rounded"
           onClick={toggleMenu}
           aria-label="Abrir menú"
         >

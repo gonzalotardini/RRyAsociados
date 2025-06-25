@@ -70,8 +70,8 @@ export default function ContactForm() {
     };
 
     return (
-        <form className="w-full" onSubmit={handleSubmit}>
-            <h2 className="text-center text-2xl text-gray-700 font-bold my-10">Envianos tu consulta</h2>
+        <form className="w-full flex flex-col justify-between h-full flex-1" onSubmit={handleSubmit}>
+            {/* <h2 className="text-center text-2xl text-gray-700 font-bold my-10">Envianos tu consulta</h2> */}
             {success && (
                 <div className="p-4 mb-4 text-sm text-green-800 border border-green-300 rounded-lg bg-green-50">
                     <span className="font-medium">¡Consulta enviada!</span> Te responderemos pronto.
@@ -153,7 +153,7 @@ export default function ContactForm() {
                         value={form.message}
                         onChange={handleChange}
                         disabled={loading}
-                        className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out h-32"
+                        className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out h-48"
                     ></textarea>
                     {errors.message && <small className="text-red-500 text-xs mt-1">{errors.message}</small>}
                 </div>
