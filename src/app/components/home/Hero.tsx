@@ -46,7 +46,7 @@ export default function Hero() {
           Atendemos tu caso con la seriedad que merece y la empatía que necesitás.
         </motion.p>
 
-        <div className="overflow-x-hidden">
+        <div className="overflow-x-hidden overflow-y-hidden">
           <motion.div
             initial={{ x: 50, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}

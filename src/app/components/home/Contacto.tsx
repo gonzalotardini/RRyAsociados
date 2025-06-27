@@ -5,9 +5,9 @@ export default function Contacto() {
   return (
     <section className="bg-gray-100 py-20">
       <div className="md:max-w-[70%] max-w-[90%] mx-auto">
-        <h2 className="md:text-5xl text-3xl text-center font-bold text-gray-00 mb-25">
+        <h1 className="text-center font-bold text-gray-00 mb-25">
           CONTACTO
-        </h2>
+        </h1>
 
         <div className="grid md:grid-cols-2 gap-10 mx-auto">
 

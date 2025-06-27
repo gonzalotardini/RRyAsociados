@@ -27,10 +27,16 @@ body {
   color: var(--foreground);
 }
 
+footer {
+  background-color: #0c1d37;
+}
 
+footer p {
+  color: white;
+}
 
 .btn-contacto {
-  background-color: #0c1d37;
+  background-color: #0c1d37 !important;
 }
 
 nav {
