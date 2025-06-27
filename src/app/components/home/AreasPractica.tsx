@@ -60,7 +60,7 @@ export default function Servicios() {
     const bottomAreas = areas.slice(4);
   
     return (
-      <section className="mx-auto flex flex-col justify-center items-center text-center pt-10 pb-20 px-4 mb-25">
+      <section id="areasPractica" className="mx-auto flex flex-col justify-center items-center text-center pt-10 pb-20 px-4 mb-25 scroll-mt-25">
         <h1 className="mt-20 mb-30">
           ÁREAS DE PRÁCTICA
         </h1>

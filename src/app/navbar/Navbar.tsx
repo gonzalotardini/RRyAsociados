@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-[#0c1d37] shadow relative z-50">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-[#0c1d37] shadow">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
 
         {/* Logo a la izquierda */}
@@ -29,10 +29,10 @@ const Navbar: React.FC = () => {
         <ul className="hidden md:flex space-x-8 text-lg items-center text-white font-medium tracking-widest">
           {[
             { label: "INICIO", href: "/" },
-            { label: "QUIÉNES SOMOS", href: "/quienesSomos" },
-            { label: "EQUIPO", href: "/equipo" },
-            { label: "ÁREAS DE PRÁCTICA", href: "/nosotros" },
-            { label: "CONTACTO", href: "/contacto" },
+            { label: "QUIÉNES SOMOS", href: "#quienesSomos" },
+            { label: "EQUIPO", href: "#equipo" },
+            { label: "ÁREAS DE PRÁCTICA", href: "#areasPractica" },
+            { label: "CONTACTO", href: "#contacto" },
           ].map(({ label, href }, index) => (
             <li key={index} className="group relative cursor-pointer">
               <Link href={href} className="inline-block transition-transform hover:scale-105 hover:font-bold">
@@ -61,9 +61,10 @@ const Navbar: React.FC = () => {
       >
         <div className="p-6 flex flex-col space-y-6 text-white font-medium text-lg">
           <Link href="/" onClick={() => setIsOpen(false)}>INICIO</Link>
-          <Link href="/quienesSomos" onClick={() => setIsOpen(false)}>QUIENES SOMOS</Link>
-          <Link href="/nosotros" onClick={() => setIsOpen(false)}>SOLUCIONES</Link>
-          <Link href="/contacto" onClick={() => setIsOpen(false)}>CONTACTO</Link>
+          <Link href="#quienesSomos" onClick={() => setIsOpen(false)}>QUIENES SOMOS</Link>
+          <Link href="#equipo" onClick={() => setIsOpen(false)}>EQUIPO</Link>
+          <Link href="#areasPractica" onClick={() => setIsOpen(false)}>ÁREAS DE PRÁCTICA</Link>
+          <Link href="#contacto" onClick={() => setIsOpen(false)}>CONTACTO</Link>
         </div>
       </div>
     </nav>

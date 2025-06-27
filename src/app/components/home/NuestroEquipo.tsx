@@ -38,7 +38,7 @@ const equipo: Miembro[] = [
 
 export default function NuestroEquipo() {
     return (
-        <section className="bg-gray-100 sm:pt-25 pt-10 justify-center text-center">
+        <section id="equipo" className="bg-gray-100 sm:pt-25 pt-10 justify-center text-center scroll-mt-25">
             <h1 className="my-15 mb-30">EQUIPO</h1>
             {/* DESKTOP */}
             <div className="grid grid-cols-1 md:grid-cols-4 gap-10 max-w-6xl mx-auto hidden md:grid">

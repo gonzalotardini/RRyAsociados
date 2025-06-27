@@ -31,7 +31,7 @@ const socios: Socio[] = [
 
 export default function QuienesSomos() {
     return (
-        <section className="bg-white">
+        <section className="bg-white scroll-mt-25" id="quienesSomos">
             <div className="max-w-[90%] mx-auto sm:pt-10 pt-25 bg-light text-center">
 
                 <motion.div

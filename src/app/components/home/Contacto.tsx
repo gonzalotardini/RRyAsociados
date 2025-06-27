@@ -3,7 +3,7 @@ import { FaWhatsapp, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
 export default function Contacto() {
   return (
-    <section className="bg-gray-100 py-20">
+    <section id="contacto" className="bg-gray-100 py-20 scroll-mt-32">
       <div className="md:max-w-[70%] max-w-[90%] mx-auto">
         <h1 className="text-center font-bold text-gray-00 mb-25">
           CONTACTO

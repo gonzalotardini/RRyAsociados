@@ -21,6 +21,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Work Sans', sans-serif;
   background: var(--background);
